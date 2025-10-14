@@ -3,6 +3,7 @@ import Navbar from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Program from './components/Program/Program'
 import Title from './components/Title/Title'
+import About from './components/About/About'
 
 
 const App = () => {
@@ -14,6 +15,8 @@ const App = () => {
       <div className="container">
         <Title subTitle='Our program' title='What We Offer' />
         <Program />
+        <About/>
+
       </div>
        </div>
   )
