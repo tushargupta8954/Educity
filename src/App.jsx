@@ -1,12 +1,19 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
+import Hero from './components/Hero/Hero'
+import Program from './components/Program/Program'
+
 
 const App = () => {
   return (
     <div>
       
       <Navbar />
-    </div>
+      <Hero />
+      <div className="container">
+        <Program />
+      </div>
+       </div>
   )
 }
 
